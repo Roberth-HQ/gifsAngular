@@ -2,10 +2,10 @@ import {  Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 interface MenuOption{
-  label:String,
-  subLabel:String,
-  route:String,
-  icon:String
+  label:string,
+  subLabel:string,
+  route:string,
+  icon:string
 }
 
 @Component({
